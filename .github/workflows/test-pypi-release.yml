@@ -16,7 +16,7 @@ permissions:
 jobs:
   build-and-publish:
     name: Build and Publish to Test PyPI
-    runs-on: aws-release-4-core
+    runs-on: ubuntu-latest
     environment:
       name: testpypi
       url: https://test.pypi.org/p/bedrock-agentcore-starter-toolkit
